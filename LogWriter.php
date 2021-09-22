@@ -1,13 +1,10 @@
 <?php
 
-class LogWriter {
-    
-    public static function write_in_log($new_text){
-        
-        $file = 'multicurl_demo_log.txt';
-        
-        $new_text = file_get_contents($file) . "\n" . $new_text;
-        
-        file_put_contents($file, $new_text);
-    }
+
+class LogWriter
+{
+	public static function writeLog($text)
+	{
+		file_put_contents('multicurl_demo_log.txt', $text . PHP_EOL, FILE_APPEND);
+	}
 }
