@@ -32,8 +32,8 @@ if (!in_array($MODE, ['single', 'multi', 'compare_both_modes'])) {
 }
 
 
-// path to subprogramme file must be provided here:
-$PATH_TO_SUBPROGRAMME = 'https://my_domain/my_folder/subprogramme.php';
+// path to subprogramme must be provided here:
+$PATH_TO_SUBPROGRAMME = 'subprogramme.php';
 
 
 // "single" mode - complete whole task in sequence:

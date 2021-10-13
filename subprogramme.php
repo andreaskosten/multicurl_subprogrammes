@@ -14,7 +14,7 @@ $start = (int) $_POST['start'];
 $end = (int) $_POST['end'];
 $number = trim($_POST['number']);
 
-// some "big task":
+// some "big task", assigned to this subprogramme:
 $sum = 0;
 for ($i = $start; $i < $end; $i++) {
     $sum += $i;
